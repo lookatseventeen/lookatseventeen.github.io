@@ -36,7 +36,7 @@
   <title>Hello World - Look At Seventeen</title>
 
 
-  <link rel="shortcut icon" href="https://hexo.io/icon/favicon-96x96.png">
+  <link rel="shortcut icon" href="https://i.loli.net/2017/09/28/59ccf2c58bda2.png">
 
   <!-- Custom CSS/Sass -->
   <link rel="stylesheet" href="/css/style.css">
@@ -66,7 +66,7 @@
     <div class="logo">
       <a href="/" rel="home">
         
-        <img src="https://hexo.io/logo.svg" alt="Look At Seventeen" height="60">
+        <img src="https://i.loli.net/2017/09/28/59ccf2c58bda2.png" alt="Look At Seventeen" height="60">
         
       </a>
     </div>
@@ -147,6 +147,17 @@
   <!-- <h1 class="title">留言</h1> -->
 
   
+  <div id="disqus_thread">
+    <script type="text/javascript">
+    var disqus_config = function () {
+          this.page.url = window.location.href;
+          this.page.identifier = 'post-hello-world';
+          this.page.title = 'Hello World';
+      };
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+  
 </section>
 
 
@@ -174,7 +185,7 @@
         <h1 class="widget-title">关于本站</h1>
         <div class="custom-widget-content">
           
-          <ul><li><a href="https://github.com/GallenHu/hexo-theme-Daily">如何自定义这里的内容(配置教程)?</a></li></ul>
+          <p align="center">用最大的善意面对残酷的生活，永远好奇、感恩、充满力量</p>
         </div>
       </aside>
     </div>
@@ -184,7 +195,7 @@
         <div class="widget-text">
           
             
-              <a href="https://github.com/GallenHu" class="icon icon-github" target="_blank">github</a>
+              <a href="https://weibo.com/u/2854154774" class="icon icon-weibo" target="_blank">weibo</a>
             
           
         </div>
@@ -220,6 +231,22 @@
   <!-- After footer scripts -->
   <!-- scripts -->
 <script src="/js/app.js"></script>
+
+<script>
+  var disqus_shortname = 'seventeen';
+
+  
+  var disqus_url = 'http://yoursite.com/2017/09/27/hello-world/';
+  
+
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
 
 
 
